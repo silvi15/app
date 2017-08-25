@@ -3,7 +3,8 @@ import { Template } from 'meteor/templating';
 import { ReactiveDict } from 'meteor/reactive-dict';
  
 import { Tasks } from '../api/tasks.js';
- 
+import './route.js'; 
+import './landingPage.html';
 import './task.js';
 import './body.html';
  
