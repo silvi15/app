@@ -1,14 +1,24 @@
 <template name="homePage">
-
-    <div class="container">
-        <h1> Home Page </h1>
-        <div class="btn-group">
-            <button type="button" class="btn btn-primary">Home</button>
-            <button type="button" class="btn btn-primary">Notification</button>
-            <button type="button" class="btn btn-primary">Inbox</button>
-        </div>
-        <h3>Card work</h3> <button type="button" class="btn btn-success">New CardWork</button>
-        <h3>My CardWork</h3> <button type="button" class="btn btn-success">My CardWork</button>
-        <h3>Working</h3> <button type="button" class="btn btn-success">Working in </button>
+  <div align="center" class="container">
+    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+        <a href="/home" type="button" class="btn btn-secondary">
+          <span class="glyphicon glyphicon-home"></span> 
+        </a>
+      <a href="/inbox" type="button" class="btn btn-secondary">
+        <span class="glyphicon glyphicon-envelope"></span> 
+      </a>
+      <a href="/findPeople" type="button" class="btn btn-secondary">
+        <span class="glyphicon glyphicon-search"></span> 
+      </a>
+      <a href="/project" type="button" class="btn btn-secondary">
+          <span class="glyphicon glyphicon-briefcase"></span> 
+      </a>
+      <a href="/notification" type="button" class="btn btn-secondary">
+          <span class="glyphicon glyphicon-bell"></span> 
+      </a>
+       <a href="/profile" type="button" class="btn btn-secondary">
+          <span class="glyphicon glyphicon-user"></span> 
+       </a>
     </div>
+  </div>
 </template>

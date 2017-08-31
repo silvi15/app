@@ -1,0 +1,14 @@
+.card { 
+    float: left;
+    margin: 10px 10px;
+
+}
+.card h5{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.stories {
+    background: red;
+}
